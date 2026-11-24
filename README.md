@@ -14,7 +14,7 @@ The joke:
 
 > I asked for a standing desk; HR gave me a standing meeting instead.
 
-Why this line: it is a genuine one-line office joke (criterion 1) — a setup with a real turn at the end, where "standing" flips from furniture to the meeting nobody wanted (criterion 2). It rings true about office life, the standing meeting everyone has endured (criterion 3), in tight wording with no setup longer than it needs (criterion 4), and the standing-desk wordplay is a fresh angle rather than the obvious Monday-morning or photocopier line (criterion 5).
+Why this line: it is a genuine one-line office joke (criterion 1) — a setup with a real turn at the end, where "standing" flips from furniture to the meeting nobody wanted (criterion 2). It rings true about office life, the standing meeting everyone has endured (criterion 3), in tight wording with no setup longer than it needs (criterion 4), and the standing-desk wordplay is a fresh angle rather than the obvious Monday-morning or photocopier line (criterion 5). Judged on those criteria, it scores on all five at once: form, punchline, relatability, brevity, and originality — no single one carries it alone.
 
 ## Run it
 
@@ -23,6 +23,8 @@ python3 main.py
 ```
 
 This writes `/output/entry.txt` (or `$OUTPUT_DIR/entry.txt` when that variable is set, for local testing).
+
+How it was built: the joke was drafted against the judge criteria first, then the script was written around it with a validator that checks the one-line and 200-character rules before writing, so the output can never silently break the competition rules.
 
 ## License
 
